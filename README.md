@@ -2,27 +2,21 @@
 
 You got them! You can see the files and folders of airflow which means, airflow is initialized! What is the next step ? Running airflow ? Let's do it! By the way, what components airflow needs to run with the default executor ? 
 
-a web server and a database 
-
-a web server, a scheduler and a database 
-
-a web server, a worker and a database 
+A) a web server and a database 
+B) **a web server, a scheduler and a database** 
+C) a web server, a worker and a database 
 
 Your DAG was paused during 5 days. Its schedule interval is defined to 10 mins. As you can imagine you will get many DAGRuns running. You schedule it again, which view do you think is the most useful one to check how your DAGRuns are going ? 
 
-DAGs view 
-
-Gantt view 
-
-Tree view 
+A) DAGs view 
+B) Gantt view 
+C) **Tree view** 
 
 You just added a new DAG file into your dags folder, but it doesn't show up on the UI. The code is perfect, as it has passed a rigorous code review, and the reviewer even commented that you are the best airflow engineer they have ever seen! What's going on ? 
 
-You have to restart airflow for the DAG to show up on the UI 
-
-Your reviewer lied. You made a mistake in the DAG code. and he wanted to see you panic. 
-
-You need to wait 30 seconds, as there can be up to a 30 seconds delay before the webserver acknowledges the new DAG file
+A) You have to restart airflow for the DAG to show up on the UI 
+B) Your reviewer lied. You made a mistake in the DAG code. and he wanted to see you panic. 
+C) You need to wait 30 seconds, as there can be up to a 30 seconds delay before the webserver acknowledges the new DAG file
 
 When you create a DAG, there are some parameters that are absolutely crucial to understand. To illustrate the first one, what is the best practice around dag_id ? 
 
